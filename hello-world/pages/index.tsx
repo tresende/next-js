@@ -1,6 +1,6 @@
-import Nav from '../components/nav'
+import Nav from '../components/nav';
 
-export default function IndexPage() {
+export default function IndexPage(): JSX.Element {
   return (
     <div>
       <Nav />
@@ -10,5 +10,5 @@ export default function IndexPage() {
         </h1>
       </div>
     </div>
-  )
+  );
 }
