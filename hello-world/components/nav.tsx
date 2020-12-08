@@ -1,3 +1,4 @@
+import { NextComponentType } from 'next';
 import Link from 'next/link';
 
 const links = [
@@ -5,7 +6,7 @@ const links = [
   { href: 'https://nextjs.org/docs', label: 'Docs' },
 ];
 
-export default function Nav(): JSX.Element {
+const Nav: NextComponentType = () => {
   return (
     <nav>
       <ul className="flex items-center justify-between p-8">
@@ -28,4 +29,6 @@ export default function Nav(): JSX.Element {
       </ul>
     </nav>
   );
-}
+};
+
+export default Nav;
