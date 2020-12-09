@@ -5,6 +5,7 @@ const IndexPage: NextPage = () => {
   const [session, loading] = useSession();
   return (
     <>
+      <div>APP</div>
       {!session && (
         <>
           <div className="text-3xl">Not signed in</div> <br />
